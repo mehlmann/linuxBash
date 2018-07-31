@@ -1,0 +1,5 @@
+#!/bin/bash
+ps -a -l | while read f
+do
+	echo $f
+done
