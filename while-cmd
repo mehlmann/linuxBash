@@ -1,0 +1,8 @@
+#!/bin/bash
+input="c"
+while [ $input != "+" ]
+do
+	echo "Eingabe:"
+	read input
+done
+echo "cool"

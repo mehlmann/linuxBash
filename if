@@ -1,0 +1,10 @@
+#!/bin/bash
+x=1337
+if [ $x = 42 ]; then
+	echo "x is 42"
+elif [ $x = 1336 -o $x = 1337 ]; then
+	echo "x is 1336 or 1337"
+	echo "WTF"
+else
+	echo "x is not 42"
+fi
